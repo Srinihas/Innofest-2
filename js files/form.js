@@ -25,7 +25,7 @@ class Form {
     }
 
     start() {
-        this.doneButton.mouseClicked(() => this.mainArray());
+        this.doneButton.mouseClicked(() => {this.mainArray()});
         this.setPositionAndWidth();
     }
 
